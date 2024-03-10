@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         myServer = new MyServer(port);
 
         try {
-            socket = new Socket("localhost", port);
+            socket = new Socket("se2-submission.aau.at", port);
             out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         } catch (IOException e) {
