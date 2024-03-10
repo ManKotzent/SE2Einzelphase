@@ -17,14 +17,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonTask1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Abschicken"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/serverAnswerTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/serverAnswerTextView"
+        app:layout_constraintVertical_bias="0.487" />
 
     <EditText
         android:id="@+id/matrikelNumberField"
@@ -46,5 +48,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTask2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aufgabe 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serverAnswerTextView"
+        app:layout_constraintVertical_bias="0.487" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
